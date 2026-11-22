@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#152b2c">
+  <!-- 鬼剑士源模型由 Tripo Studio H3.1 生成，任务 4b64b2a3-e9a0-493b-b24c-e925a4a4a7bb。
+       参考：国服第一章城镇游览 https://www.bilibili.com/video/BV1P24y1N7A8/?t=312
+       城镇原声：Hendon Myre (ACT.1–ACT.7), Neople https://www.youtube.com/watch?v=sWiho5PYR_M
+       NPC 及近景陈设按早期城镇实机图重绘参考，经 Tripo Studio 建模后优化为 WebGL 资产。 -->
+  <title>赫顿玛尔 · 三维漫游</title>
+  <style>/* GAME_STYLE */</style>
+</head>
+<body>
+<main id="game" aria-label="阿拉德大陆三维街区">
+  <canvas id="world" tabindex="0" aria-label="三维街区。WASD 或方向键走动，拖动环视，滚轮拉近拉远，R 回到人物身后。"></canvas>
+  <header class="location"><span class="crest" aria-hidden="true">✥</span><div><h1>赫顿玛尔</h1><p id="district">月光酒馆外街</p></div></header>
+  <div class="actions">
+    <button id="open-map" type="button" title="查看街区地图（M）" aria-label="街区地图"><svg viewBox="0 0 24 24"><path d="m3 5 6-2 6 3 6-2v15l-6 2-6-3-6 2zM9 3v15m6-12v15"/></svg></button>
+    <button id="music" type="button" title="播放城镇原声（V）" aria-label="播放城镇原声" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M9 17V5l11-2v12M9 8l11-2"/><ellipse cx="6" cy="18" rx="3" ry="2.2"/><ellipse cx="17" cy="16" rx="3" ry="2.2"/></svg></button>
+    <button id="effects" type="button" title="关闭脚步与人声" aria-label="关闭脚步与人声" aria-pressed="true"><svg viewBox="0 0 24 24"><path d="M3 9h4l5-4v14l-5-4H3zM15 9c2 2 2 4 0 6m3-9c4 4 4 8 0 12"/></svg></button>
+    <button id="full" type="button" title="全屏（F）" aria-label="全屏"><svg viewBox="0 0 24 24"><path d="M8 4H4v4m12-4h4v4M4 16v4h4m12-4v4h-4"/></svg></button>
+  </div>
+  <div id="labels" aria-hidden="true"></div>
+  <div id="speech" role="status" aria-live="polite" hidden><b></b><span></span></div>
+  <div id="passage" aria-hidden="true"></div>
+  <div id="loading" role="status">正在进入赫顿玛尔…</div>
+  <div id="controls"><span><kbd>WASD</kbd> / <kbd>↑↓←→</kbd> 移动</span><span>拖动环视</span><span>滚轮缩放</span><span><kbd>R</kbd> 回正</span></div>
+  <div id="touch-pad" aria-label="移动摇杆"><i></i></div><span id="touch-tip">拖动画面环视</span>
+  <dialog id="map"><div class="map-head"><div><small>赫顿玛尔</small><h2>街区地图</h2></div><button id="close-map" aria-label="关闭地图">×</button></div>
+    <canvas id="map-view" width="780" height="412" aria-label="街区位置与朝向"></canvas><div class="map-note"><i></i>鬼剑士</div>
+    <details class="asset-rights"><summary>素材权利与下架联系</summary>
+      <p>本街区为非官方同人作品。参考《地下城与勇士》原作形象制作的角色、建筑和道具，以及收录的游戏音乐、配音和音效，尚未取得原作相关权利人的版权许可。</p>
+      <p>权利人可要求下架或替换相关内容。可通过<a href="https://github.com/sunny-sun-china/hendon-myre-3d/issues/new" target="_blank" rel="noopener noreferrer">仓库 Issues 联系维护者</a>，或向 GitHub 提交<a href="https://github.com/contact/dmca" target="_blank" rel="noopener noreferrer">版权投诉</a>。</p>
+    </details></dialog>
+  <div id="status" class="sr" aria-live="polite"></div>
+</main>
+<script type="application/json" id="art">ASSETS_JSON</script><script>/* GAME_CODE */</script>
+</body></html>

@@ -1,0 +1,19 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Local art masters, references and recordings. The playable build uses the optimized assets.
+/assets/Tripo原件/
+/assets/建模参考/
+/assets/鬼剑士建模参考.png
+/assets/slayer-tripo-source.glb
+/assets/voices/fengzhen.ogg
+/assets/voices/firepot.ogg
+/*.mp4
+/*.jpg
+
+# Superseded character prototype retained locally.
+/actors.js
+/actors-data.js
