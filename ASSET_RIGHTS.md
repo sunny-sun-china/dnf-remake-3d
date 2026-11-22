@@ -14,7 +14,7 @@
 
 如果您是权利人或其授权代表，认为项目中的内容影响了您的权益，可通过下列渠道提出下架或替换请求。请指出涉事文件或画面、对应作品和您希望采取的措施。涉及个人联系方式或证明材料时，请使用私下渠道。
 
-- 能访问本仓库的用户可通过 [GitHub Issues 联系维护者](https://github.com/sunny-sun-china/hendon-myre-3d/issues/new)。
+- 能访问本仓库的用户可通过 [GitHub Issues 联系维护者](https://github.com/sunny-sun-china/dnf-hendon-myre-3d/issues/new)。
 - 对 GitHub 托管内容，权利人也可直接向平台提交[版权投诉](https://github.com/contact/dmca)。提交要求见 [GitHub 版权投诉指南](https://docs.github.com/en/site-policy/content-removal-policies/guide-to-submitting-a-dmca-takedown-notice)。
 
 维护者会核对请求，并对涉及的内容采取停止分发、下架或替换等措施。处理范围包括对应的素材文件以及嵌入了这些素材的可玩 HTML。

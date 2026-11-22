@@ -1,5 +1,5 @@
 {
-  "name": "hendon-myre-3d",
+  "name": "dnf-hendon-myre-3d",
   "private": true,
   "type": "module",
   "scripts": { "build": "node build.mjs" },
